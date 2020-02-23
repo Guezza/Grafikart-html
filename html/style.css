@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-family: "sans-serif", "Source Sans Pro";
+}
+
+.header {
+    background: grey;
+    padding: 20px;
+    height: auto;
+    color: #ffffff;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header-nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.header-nav a {
+    padding: 0 10px;
+    color: inherit;
+    text-align: center;
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+.header-title {
+    margin-top: 0; 
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.main{
+    background: lightgrey;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.main p {
+    text-indent: 100px;
+    text-align: justify;
+}
+
+.main p:first-of-type::first-letter;
+.footer {
+    background: grey;
+    padding: 10px 20px;
+}
